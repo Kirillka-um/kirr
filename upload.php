@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 $botToken = '7684855295:AAHHoTCf4nOCLBR8GVoiZNwO6ZOlXrFpJQg';
-$chatId = 't.me/Mashinkasuper_bot'; // Узнать можно через @userinfobot
+$chatId = '7217266343'; // Узнать можно через @userinfobot
 
 $text = $_POST['text'] ?? '';
 $photo = $_FILES['photo'] ?? null;
